@@ -1,0 +1,34 @@
+.mainhead {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.subline {
+    font-family: 'Poiret One', cursive;
+    font-size-adjust: inherit;
+    font-size: 150%
+}
+
+.myclass {
+    position: relative;
+    margin-left: 370px;
+}
+
+body {
+    background: url(/images/joanna-kosinska-129039-unsplash.jpg)no-repeat fixed 100% 100%;
+    background-size:auto
+}
+
+#centeralign {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    float: none;
+}
+
+.mainsize {
+    font-size: 600%
+}
