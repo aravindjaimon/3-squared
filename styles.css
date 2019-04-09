@@ -15,7 +15,7 @@
 
 body {
     background: url(/images/joanna-kosinska-129039-unsplash.jpg)no-repeat fixed 100% 100%;
-    background-size:auto
+    background-size:cover
 }
 
 #centeralign {
