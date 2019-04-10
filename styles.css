@@ -1,138 +1,153 @@
 .mainhead {
-    font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
 }
 
 /* latin */
 
 @font-face {
-    font-family: 'Orbitron';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Orbitron Regular'), local('Orbitron-Regular'), url(https://fonts.gstatic.com/s/orbitron/v10/yMJRMIlzdpvBhQQL_Qq7dy0.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Orbitron Regular"), local("Orbitron-Regular"),
+    url(https://fonts.gstatic.com/s/orbitron/v10/yMJRMIlzdpvBhQQL_Qq7dy0.woff2)
+      format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
 }
 
 /* cyrillic */
 
 @font-face {
-    font-family: 'Poiret One';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Poiret One'), local('PoiretOne-Regular'), url(https://fonts.gstatic.com/s/poiretone/v7/UqyVK80NJXN4zfRgbdfbo5pcV_cx.woff2) format('woff2');
-    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  font-family: "Poiret One";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poiret One"), local("PoiretOne-Regular"),
+    url(https://fonts.gstatic.com/s/poiretone/v7/UqyVK80NJXN4zfRgbdfbo5pcV_cx.woff2)
+      format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 
 /* latin-ext */
 
 @font-face {
-    font-family: 'Poiret One';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Poiret One'), local('PoiretOne-Regular'), url(https://fonts.gstatic.com/s/poiretone/v7/UqyVK80NJXN4zfRgbdfbo5BcV_cx.woff2) format('woff2');
-    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  font-family: "Poiret One";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poiret One"), local("PoiretOne-Regular"),
+    url(https://fonts.gstatic.com/s/poiretone/v7/UqyVK80NJXN4zfRgbdfbo5BcV_cx.woff2)
+      format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
 /* latin */
 
 @font-face {
-    font-family: 'Poiret One';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Poiret One'), local('PoiretOne-Regular'), url(https://fonts.gstatic.com/s/poiretone/v7/UqyVK80NJXN4zfRgbdfbo55cVw.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  font-family: "Poiret One";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poiret One"), local("PoiretOne-Regular"),
+    url(https://fonts.gstatic.com/s/poiretone/v7/UqyVK80NJXN4zfRgbdfbo55cVw.woff2)
+      format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
 }
 
 .main {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    overflow: auto;
-    background: #fbfbfb;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  background: #fbfbfb;
 }
 
 .profile {
-    background-image: url("http://starkovtattoo.spb.ru/images/200/DSC100224440.png");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #444;
-    width: 250px;
-    height: 400px;
-    border-radius: 24px;
-    border: none;
-    box-shadow: 0 37.125px 70px -12.125px rgba(0, 0, 0, 0.2);
-    transition: all .3s;
+  background-image: url("http://starkovtattoo.spb.ru/images/200/DSC100224440.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #444;
+  width: 250px;
+  height: 400px;
+  border-radius: 24px;
+  border: none;
+  box-shadow: 0 37.125px 70px -12.125px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s;
 }
 
 .profileName {
-    background: transparent;
-    border: 0;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 800;
-    color: #eee;
+  background: transparent;
+  border: 0;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 800;
+  color: #eee;
 }
 
 .isVerified {
-    fill: #eee;
-    margin: 5px;
+  fill: #eee;
+  margin: 5px;
 }
 
 .card-body {
-    color: #eee;
-    margin-top: 1.5em;
+  color: #eee;
+  margin-top: 1.5em;
 }
 
 .avatar {
-    border-radius: 50%;
-    max-width: 128px;
-    transform: scale(0.95);
-    transition: all .5s;
-    cursor: pointer;
+  border-radius: 50%;
+  max-width: 128px;
+  transform: scale(0.95);
+  transition: all 0.5s;
+  cursor: pointer;
 }
 
 .avatar:hover {
-    transform: scale(1);
-    box-shadow: 0 37.125px 70px -12.125px rgba(0, 0, 0, 0.2);
+  transform: scale(1);
+  box-shadow: 0 37.125px 70px -12.125px rgba(0, 0, 0, 0.2);
 }
 
 .profilePic {
-    text-align: center;
+  text-align: center;
 }
 
 .isOnline {
-    text-align: center;
-    color: #eee;
+  text-align: center;
+  color: #eee;
 }
 
 .profileInfo {
-    margin-top: 1em;
-    font-weight: 200;
-    font-size: 12px;
-    color: #eee;
-    text-align: center;
+  margin-top: 1em;
+  font-weight: 200;
+  font-size: 12px;
+  color: #eee;
+  text-align: center;
 }
 
 .actions {
-    background: transparent;
-    border: 0;
-    color: #fff;
-    display: inline-flex;
+  background: transparent;
+  border: 0;
+  color: #fff;
+  display: inline-flex;
 }
 
-.actionFirst, .actionSecond {
-    width: 50%;
-    text-align: center;
-    fill: #ddd;
-    transform: scale(0.8);
-    transition: all .3s;
-    cursor: pointer;
+.actionFirst,
+.actionSecond {
+  width: 50%;
+  text-align: center;
+  fill: #ddd;
+  transform: scale(0.8);
+  transition: all 0.3s;
+  cursor: pointer;
 }
 
-.actionFirst:hover, .actionSecond:hover {
-    transform: scale(1);
-    fill: #fff;
+.actionFirst:hover,
+.actionSecond:hover {
+  transform: scale(1);
+  fill: #fff;
 }
